@@ -2,7 +2,8 @@ package app.utils;
 
 public final class Constants {
 
-    public final static String TABLE_CONTACTS = "contacts";
+    public final static String TABLE_CONTACTS = "New_JDBC_Users";
+
 
 
     // Regex для email
