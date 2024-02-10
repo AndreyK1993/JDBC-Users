@@ -1,5 +1,6 @@
 package app.service;
 
+import app.entity.User;
 import app.exceptions.UpdateException;
 import app.repository.UserUpdateRepository;
 import app.utils.Constants;
@@ -13,7 +14,7 @@ public class UserUpdateService {
 
     UserUpdateRepository repository;
 
-    public UserUpdateService(UserUpdateRepository UpdateRepository repository) {
+    public UserUpdateService(UserUpdateRepository repository) {
         this.repository = repository;
     }
 

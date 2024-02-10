@@ -1,6 +1,7 @@
 package app.repository;
 
 import app.database.DBConn;
+import app.entity.User;
 import app.utils.Constants;
 import app.utils.IdChecker;
 
