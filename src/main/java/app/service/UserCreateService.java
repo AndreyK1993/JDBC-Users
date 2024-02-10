@@ -39,7 +39,7 @@ public class UserCreateService {
         if (data[0].isEmpty())
             errors.put("first name", Constants.INPUT_REQ_MSG);
 
-        if (EmailValidator.isEmailValid(data[2]))
+        if (EmailValidator.isEmailValid(data[1]))
             errors.put("email", Constants.WRONG_EMAIL_MSG);
 
         return errors;
