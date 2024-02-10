@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class UserDeleteRepository {
 
-    public String deleteContact(User user) {
+    public String deleteUser(User user) {
         // Перевіряємо наявність id в БД.
         // ТАК - працюємо з даними.
         // НІ - повідомлення про відсутність id.

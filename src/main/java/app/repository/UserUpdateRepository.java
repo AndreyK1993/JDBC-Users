@@ -14,7 +14,7 @@ public class UserUpdateRepository {
         // Перевіряємо наявність id в БД.
         // ТАК - працюємо з даними.
         // НІ - повідомлення про відсутність id.
-        if (IdChecker.isIdExists(user.getID())) {
+        if (IdChecker.isIdExists(user.getId())) {
             return updateUserById(user);
         } else {
             return Constants.ID_NO_EXISTS_MSG;
