@@ -15,7 +15,7 @@ public class UsersDeleteController {
     }
 
     public void deleteUsers() {
-        view.getOutput(service.deleteUsers(view.getData()));
+        view.getOutput(service.deleteUser(view.getData()));
         AppStarter.startApp();
     }
 }

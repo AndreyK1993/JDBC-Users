@@ -10,7 +10,7 @@ public class UserCreateView {
 
         String title = "Enter name: ";
         System.out.print(title);
-        String firstName = scanner.nextLine().trim();
+        String name = scanner.nextLine().trim();
 
 
         title = "Enter email in format example@mail.com: ";

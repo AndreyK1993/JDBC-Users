@@ -1,7 +1,7 @@
 package app.service;
 
 import app.entity.User;
-import app.repository.UsersReadRepository;
+import app.repository.UserReadRepository;
 import app.utils.Constants;
 
 import java.util.List;
@@ -9,9 +9,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class UserReadService {
 
-    UsersReadRepository repository;
+    UserReadRepository repository;
 
-    public UserReadService(UsersReadRepository repository) {
+    public UserReadService(UserReadRepository repository) {
         this.repository = repository;
     }
 

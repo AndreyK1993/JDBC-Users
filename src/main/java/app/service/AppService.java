@@ -7,7 +7,7 @@ import app.controller.UsersUpdateController;
 import app.exceptions.OptionException;
 import app.repository.UserCreateRepository;
 import app.repository.UserDeleteRepository;
-import app.repository.UsersReadRepository;
+import app.repository.UserReadRepository;
 import app.repository.UserUpdateRepository;
 import app.utils.AppStarter;
 import app.utils.Constants;
@@ -27,7 +27,7 @@ public class AppService {
     }
 
     public void readUsers() {
-        UsersReadRepository repository = new UsersReadRepository();
+        UserReadRepository repository = new UserReadRepository();
         UserReadService service = new UserReadService(repository);
         UserReadView view = new UserReadView();
         UsersReadController controller = new UsersReadController(service, view);

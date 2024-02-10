@@ -1,5 +1,6 @@
 package app.service;
 
+import app.entity.User;
 import app.exceptions.UpdateException;
 import app.repository.UserDeleteRepository;
 import app.utils.Constants;
